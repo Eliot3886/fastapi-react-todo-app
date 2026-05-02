@@ -1,0 +1,18 @@
+2026-05-02 16:13:41,785 - INFO - Login attempt for user: testuser
+2026-05-02 16:13:41,791 - ERROR - Invalid login for user: testuser
+2026-05-02 16:15:27,801 - INFO - Registering user: testuser
+2026-05-02 16:15:28,980 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PROJECTS\TO DO APPLICATION\Backend\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-02 16:17:03,029 - INFO - Registering user: newuser123
+2026-05-02 16:17:03,032 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PROJECTS\TO DO APPLICATION\Backend\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-02 18:15:14,251 - INFO - Registering user: tes
+2026-05-02 18:15:14,938 - INFO - User tes registered successfully
